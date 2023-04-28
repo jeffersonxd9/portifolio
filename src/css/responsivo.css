@@ -1,0 +1,389 @@
+@media (max-width: 576px) { 
+    .imagem-logo{
+        display: none;
+    }
+
+    .nav{
+        display: flex;
+        padding: 0;
+    }
+
+    .nav ul{
+        padding: 0;
+        gap: 20px;
+    }
+
+    ul{
+        width: 80px;
+    }
+
+    main section{
+        width: 440px;
+    }
+    .main-img{
+        display: none;
+    }
+
+    .imagem-sobre{
+        display: none;
+    }
+
+    .sobre .descricao-sobre{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.habi > h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+
+    .habilidades{
+        display: flex;
+        justify-content: center;
+    }
+
+    .habilidades-container{
+        width: 100px;
+    }
+    
+    .habilidades-container > h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+        color:  #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .habilidades ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 18px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .list-habilidades h1{
+        padding-bottom: 20px;
+        color:#FFFFFF;
+        font-family: 'Bruno Ace', cursive; 
+        font-size: 12px;
+    }
+    
+    .list-habilidades li{
+        background-color: #000;
+        padding: 10px;
+        width: 90px;
+        height: 100px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #B82C2C;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .list-habilidades li img{
+        width: 50px;
+    }
+    
+ }
+
+
+@media (min-width: 576px ) and (max-width:992px) { 
+    .imagem-logo{
+        display: none;
+    }
+
+    .nav{
+        width: 640px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .nav ul{
+        padding: 0;
+        gap: 20px;
+    }
+
+    main section{
+        width: 740px;
+        margin-left: 20px;
+    }
+    .main-text{
+        width: 600px;
+    }
+
+    .main-img{
+        display: none;
+    }
+
+    .imagem-sobre{
+        display: none;
+    }
+
+    .sobre .descricao-sobre{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.habi > h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+
+    .habilidades{
+        display: flex;
+        justify-content: center;
+    }
+
+    .habilidades-container{
+        width: 190px;
+    }    
+    .habilidades-container > h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+        color:  #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .habilidades ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .list-habilidades h1{
+        padding-bottom: 20px;
+        color:#FFFFFF;
+        font-family: 'Bruno Ace', cursive; 
+        font-size: 12px;
+    }
+    
+    .list-habilidades li{
+        background-color: #000;
+        padding: 10px;
+        width: 190px;
+        height: 170px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #B82C2C;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .list-habilidades li img{
+        width: 120px;
+    }
+    
+ }
+
+
+@media (min-width: 992px) and (max-width:1200px) { 
+    .imagem-logo{
+        display: inline;
+        width: 180px;
+    }
+
+    .nav{
+        width: 840px;
+        padding: 0;
+        justify-content:space-between;
+    }
+
+    .nav ul{
+        padding: 0;
+        gap: 20px;
+    }
+
+    main section{
+        width: 940px;
+        margin-left: 20px;
+       
+    }
+    .main-text{
+        width: 780px;
+        margin: 0 auto;
+    }
+
+    .main-img{
+        display: none;
+    }
+
+    .imagem-sobre{
+        display: none;
+    }
+
+    .sobre .descricao-sobre{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.habi > h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+
+    .habilidades{
+        display: flex;
+        justify-content: center;
+    }
+
+    .habilidades-container{
+        width: 190px;
+    }    
+    .habilidades-container > h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+        color:  #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .habilidades ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .list-habilidades h1{
+        padding-bottom: 20px;
+        color:#FFFFFF;
+        font-family: 'Bruno Ace', cursive; 
+        font-size: 12px;
+    }
+    
+    .list-habilidades li{
+        background-color: #000;
+        padding: 10px;
+        width: 190px;
+        height: 170px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #B82C2C;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .list-habilidades li img{
+        width: 120px;
+    }
+ }
+
+
+@media (min-width: 1200px) and (max-width:1300px) { 
+    .imagem-logo{
+        display: inline;
+        width: 180px;
+    }
+
+    .nav{
+        width: 1100px;
+        padding: 0;
+        justify-content:space-between;
+    }
+
+    .nav ul{
+        padding: 0;
+        gap: 20px;
+    }
+
+    main section{
+        width: 1200px;
+        margin-left: 20px;
+       
+    }
+    .main-text{
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .main-img{
+        display: inline;
+    }
+
+    .imagem-sobre{
+        display: inline;
+    }
+
+    .sobre .descricao-sobre{
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.habi > h1{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+
+    .habilidades{
+        display: flex;
+        justify-content: center;
+    }
+
+    .habilidades-container{
+        width: 190px;
+    }    
+    .habilidades-container > h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+        color:  #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .habilidades ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .list-habilidades h1{
+        padding-bottom: 20px;
+        color:#FFFFFF;
+        font-family: 'Bruno Ace', cursive; 
+        font-size: 12px;
+    }
+    
+    .list-habilidades li{
+        background-color: #000;
+        padding: 10px;
+        width: 190px;
+        height: 170px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #B82C2C;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .list-habilidades li img{
+        width: 120px;
+    }
+ }

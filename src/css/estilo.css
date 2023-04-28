@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000000 ;
+}  
+
+header{
+    background: #000000;
+}
+
+main{
+    width: 100%;
+}
+
+.nav{ 
+    margin: 0 auto;
+    padding: 40px 70px;  
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav ul{
+    display: flex;
+    gap: 60px;
+}
+
+.nav ul li a{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.nav ul li a:hover{
+    color: red;
+    transition: 0.7s;
+}
+
+main section{
+    width: 70%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+
+section .main-text h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    color: #979797;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+section .main-text h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #D2D2D2;
+    text-transform: uppercase; 
+}
+
+section .main-text h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    color: #B82C2C;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #B82C2C;
+    font-weight: bold;
+}
+
+.main-text h1::after{
+    content: '|';
+    margin-left: 2px;
+    opacity: 1;
+    animation: blink .9s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.box-button{
+    display: flex;
+}
+
+
+.button{
+    margin: 20px 20px 0 0; 
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+}
+
+.button1{
+    background-color: rgba(255, 0, 0, 0.90);
+    box-shadow: 0 0 10px #B82C2C;
+    border: 1px solid #030303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2{
+    background-color: #000000;
+    box-shadow: 0 0 10px #B82C2C;
+    border: 1px solid #B82C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 h4{
+    color: #FFFFFF;
+}
+
+.button1:hover{
+    background-color: #700d0d;
+    cursor: pointer;
+    transition: 0.2s;
+    color: red;
+}
+
+.button2:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button1 img{
+    width: 80px;
+    filter: invert(1);
+    height: 66px;
+}
+
+.button2 img{
+    width: 40px;
+    filter: invert(1);
+    margin-right:10px;
+}
+
+.main-text .front{
+    font-size: 25px;
+}
+
+
+section.sobre{
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-sobre{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.descricao-sobre h1{    
+    font-size: 40px;
+    color: #881f1f;margin-bottom; 
+}
+
+p.text-sobre{
+    margin-top: 60px;
+    color: #FFFFFF;
+    font-size: 19px;
+    margin-bottom: 80px;
+}
+
+.imagem-sobre img{
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #B82C2C;
+    opacity: 0.7;
+}
+
+.imagem-sobre img:hover{
+    opacity: 1;
+}
+
+section.habi > h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.habilidades{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+
+.habilidades-container{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.habilidades-container > h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    color:  #FFFFFF;
+}
+
+.habilidades ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 50px;
+}
+
+.list-habilidades h1{
+    padding-bottom: 20px;
+    color:#FFFFFF;
+    font-family: 'Bruno Ace', cursive; 
+}
+
+.list-habilidades li{
+    background-color: #000;
+    padding: 50px;
+    width: 190px;
+    height: 150px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #B82C2C;
+    
+}
+
+
+.list-habilidades li:hover{
+    box-shadow: 0 0 40px #B82C2C;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.list-habilidades li:hover h1{
+    margin-bottom: 10px;
+    color: red;
+    transition: 0.7s;
+}
+
